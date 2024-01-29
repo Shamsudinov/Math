@@ -6,9 +6,10 @@ CONFIG -= qt
 SOURCES += \
         line.cpp \
         main.cpp \
+        point.cpp \
         triangle.cpp
 
 HEADERS += \
-    figure.h \
     line.h \
+    point.h \
     triangle.h

@@ -1,9 +1,9 @@
 #ifndef TRIANGLE_H
 #define TRIANGLE_H
 
-#include <figure.h>
+#include <point.h>
 
-class Triangle : public Figure{
+class Triangle{
 
     Point A;
     Point B;
@@ -12,8 +12,8 @@ public:
     Triangle();
     Triangle(const Point&,const Point&,const Point&);
 
-    void square() const override;
-    void perimeter() const override;
+    void square() const;
+    void perimeter() const;
 };
 
 #endif // TRIANGLE_H
