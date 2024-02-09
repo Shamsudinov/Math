@@ -1,13 +1,17 @@
 #ifndef TRIANGLE_H
 #define TRIANGLE_H
 
-#include <point.h>
+#include <line.h>
 
 class Triangle{
 
     Point A;
     Point B;
     Point C;
+
+    float ab;
+    float bc;
+    float ca;
 public:
     Triangle();
     Triangle(const Point&,const Point&,const Point&);
