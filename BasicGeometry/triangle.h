@@ -17,7 +17,11 @@ public:
     Triangle(const Point&,const Point&,const Point&);
 
     void square() const;
-    void perimeter() const;
+    float perimeter() const;
+
+    float distanceAB() const;
+    float distanceBC() const;
+    float distanceCA() const;
 };
 
 #endif // TRIANGLE_H
