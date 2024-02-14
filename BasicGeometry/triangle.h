@@ -5,13 +5,17 @@
 
 class Triangle{
 
-    Point A;
-    Point B;
-    Point C;
+    Point p1;
+    Point p2;
+    Point p3;
 
-    float ab;
-    float bc;
-    float ca;
+    float dist_p1p2;
+    float dist_p2p3;
+    float dist_p1p3;
+
+    float ah;
+    float bh;
+    float ch;
 public:
     Triangle();
     Triangle(const Point&,const Point&,const Point&);
@@ -19,9 +23,13 @@ public:
     void square() const;
     float perimeter() const;
 
-    float distanceAB() const;
-    float distanceBC() const;
-    float distanceCA() const;
+    float distanceP1P2() const;
+    float distanceP2P3() const;
+    float distanceP1P3() const;
+
+    float heightP1P2() const;
+    float heightP2P3() const;
+    float heightP1P3() const;
 };
 
 #endif // TRIANGLE_H
