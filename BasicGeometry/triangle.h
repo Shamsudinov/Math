@@ -13,6 +13,8 @@ class Triangle{
     float dist_p2p3;
     float dist_p1p3;
 
+    float sq;
+
     float ah;
     float bh;
     float ch;
@@ -20,7 +22,7 @@ public:
     Triangle();
     Triangle(const Point&,const Point&,const Point&);
 
-    void square() const;
+    float square() const;
     float perimeter() const;
 
     float distanceP1P2() const;
