@@ -8,6 +8,7 @@ SOURCES += \
     line.cpp \
     main.cpp \
     point.cpp \
+    rectangle.cpp \
     triangle.cpp \
 
 
@@ -15,4 +16,5 @@ HEADERS += \
     circle.h \
     line.h \
     point.h \
+    rectangle.h \
     triangle.h
